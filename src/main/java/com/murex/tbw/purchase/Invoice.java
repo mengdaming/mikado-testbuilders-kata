@@ -54,6 +54,12 @@ public final class Invoice {
         this.purchasedBooks.add(book);
     }
 
+    /**
+     * Sneak Peek at Bug Fix:
+     * To solve it replace the code in the for loop by the following code:
+     * double totalPrice = purchasedBook.getTotalPrice() * TaxRule.getApplicableRate(country, purchasedBook.getBook());
+     * sum += totalPrice;
+    **/
     public double computeTotalAmount() {
         double sum = 0.0;
         for (PurchasedBook purchasedBook : purchasedBooks) {

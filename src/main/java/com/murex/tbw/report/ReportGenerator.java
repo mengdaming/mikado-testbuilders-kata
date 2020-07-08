@@ -22,6 +22,11 @@ public class ReportGenerator {
 
     private final Repository repository = MainRepository.configuredRepository();
 
+    /**
+     * Sneak Peek at Bug Fix:
+     * To solve it replace the code in the for loop by the following code:
+     * totalAmount += CurrencyConverter.toUSD(invoice.computeTotalAmount(), invoice.getCountry().getCurrency());
+     **/
     public double getTotalAmount() {
         Map<Integer, Invoice> invoiceMap = repository.getInvoiceMap();
         double totalAmount = 0.0;

@@ -22,6 +22,12 @@ namespace report
 	{
 	}
 
+   /**
+   * Sneak Peek at Bug Fix:
+   * To solve it replace the code in the for loop by the following code:
+   * const auto& invoice = *id2Invoice.second;
+   * totalAmount += finance::toUSD(invoice.computeTotalAmount(), invoice.getCountry().getCurrency()); 
+   **/
 	double ReportGenerator::getTotalAmount() const
 	{
 		const auto invoiceMap = repository_->getInvoiceMap();

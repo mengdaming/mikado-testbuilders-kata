@@ -29,7 +29,7 @@ to start to use them in your daily work.
 
 ## Who is this for?
 
-If you are a developer dealing with legacy code, it might a good idea to
+If you are a developer dealing with legacy code, it might be a good idea to
 practice this kata, alone or even better, with your team.
 
 If you are a technical coach, you might host a session of this kata as a 

@@ -35,6 +35,12 @@ void purchase::Invoice::addPurchasedBook(const std::shared_ptr<const PurchasedBo
 	purchasedBooks_.push_back(book);
 }
 
+/** 
+ * Sneak Peek at Bug Fix:
+ * To solve it replace the code in the for loop by the following code:
+ * double totalPrice = purchasedBook->getTotalPrice() * finance::getApplicableRate(country_, *purchasedBook->getBook());
+ * sum += totalPrice;
+ **/
 double purchase::Invoice::computeTotalAmount() const
 {
 	double sum = 0.0;
