@@ -4,6 +4,27 @@
     <Filter Include="storage">
       <UniqueIdentifier>{727d5a34-34f3-4eba-ade7-cdf213c81dfb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{1053d937-9bde-4552-9650-930ee3e6d36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\book">
+      <UniqueIdentifier>{2f522591-dd5b-4d7a-b624-cd7d8eee357d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\country">
+      <UniqueIdentifier>{8e982de0-c215-4f3c-a8e2-cdfc3759247c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="purchase">
+      <UniqueIdentifier>{efe538cf-7ba9-4aa7-9e82-08fb502cdccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="finance">
+      <UniqueIdentifier>{6bf9ced7-2337-4508-861b-b5be8b138c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="report">
+      <UniqueIdentifier>{c0b6e479-d90d-403a-b19c-de165733b0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdreport">
+      <UniqueIdentifier>{0d842363-33a4-4992-9f9f-6058a7cf1016}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="storage\InMemoryRepository.h">
