@@ -30,7 +30,9 @@ improve your tests.
 
 Time for a mini-retro again.
 
-Take a few minutes to discuss the good and the bad of this approach.
+Take a few minutes to discuss the good and the bad of this approach. You can
+fill the section *'Building Test Data Builders Retrospective'* of the file 
+[Kata_Retrospective.md](./Kata_Retrospective.md).    
 
 Then compare them to what people usually say in
 [Animation Guide.md](./Animation_Guide.md)

@@ -208,6 +208,17 @@ You might need to look for
 [other flavors of builders](./references/Test_Data_Builders.md) to finish
 this test.
 
+## Mini-retro
+
+Time for a mini-retro again.
+
+Take a few minutes to discuss the good and the bad of this approach. You can
+fill the section *'Mikado Method to the Rescue Retrospective'* of the file 
+[Kata_Retrospective.md](./Kata_Retrospective.md).    
+
+Then compare them to what people usually say in
+[Animation Guide.md](./Animation_Guide.md)
+
 ## Retrospective
 
 Let's do a more thorough retrospective this time.

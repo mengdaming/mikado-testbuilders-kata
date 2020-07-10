@@ -84,7 +84,7 @@ standard part of the workshop.
 | Present the code and the exercise | 10 | 5 | 15 |
 | In pairs, fix the bugs | 10 | 15 | 25
 | Rollback Invoice, write a test and fix, same with ReportGenerator (bonus) | 25 | 25 | 50 |
-| Mini retro | 5 | 50 | 55 |
+| [Mini retro](./Kata_Retrospective.md) | 5 | 50 | 55 |
 
 ----
 
@@ -98,7 +98,7 @@ standard part of the workshop.
 |-------|--------|-------|-----|
 | Present test data builders | 10 | 55 | 65 |
 | Let them try to use in InvoiceTest | 10 | 65 | 75 |
-| Mini retro | 5 | 75 | 80 |
+| [Mini retro](./Kata_Retrospective.md) | 5 | 75 | 80 |
 	
 ### 4 - Mikado Method to the Rescue (60 minutes)
 
@@ -107,7 +107,7 @@ standard part of the workshop.
 | Present Mikado graph | 10 | 80 | 90 |
 | Live code beginning of Mikado | 10 | 90 | 100 |
 | Delete tests, and use 2 techniques to add InvoiceTest, continue on ReportGeneratorTest (bonus) | 25 | 100 | 130 |
-| Mini retro | 10 | 130 | 140 |
+| [Mini retro](./Kata_Retrospective.md) | 10 | 130 | 140 |
 	
 ### 5 - Conclusion (10 minutes)
 
@@ -126,6 +126,13 @@ techniques from [Training from the Back of the Room](https://www.goodreads.com/b
 
 [Copyright:[Training from the Back of the Room!](https://www.goodreads.com/book/show/8141935-training-from-the-back-of-the-room), 
 by [Sharon Bowman](https://bowperson.com/)]
+
+### Mini Retro
+
+Following each step, we recommend that you run a 5 minutes mini-retro session. 
+The is to collect feedback on what 'Went Well' and what 'Went Wrong'. In the 
+file [Kata_Retrospective](./Kata_Retrospective.md), you will find a mini-retro
+template the three sections of this kata.    
 
 ### Turn and talk Energizer
 

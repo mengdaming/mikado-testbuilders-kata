@@ -182,7 +182,7 @@ in the code and provided us with quick fixes!
   Sneak Peek at Bug Fix in ReportGenerator.cpp
   </summary>
 
-  ```diff java
+  ```diff
            double totalAmount = 0.0;
            for (const auto id2Invoice : invoiceMap)
            {
@@ -208,7 +208,7 @@ We'd like to add a unit test to reproduce the issue first.
 
 So let's revert!
 
-### 3. Write a test on Invoice and only then fix it
+### 4. Write a test on Invoice and only then fix it
 
 Let's add the test to 
 [Invoice](../src/main/java/com/murex/tbw/purchase/Invoice.java), reproduce the
@@ -218,7 +218,7 @@ Mocking a legacy code base is not a great idea. The only fake we are allowed is
 the 
 [InMemoryRepository](../src/test/java/com/murex/tbw/storage/InMemoryRepository.java)
 
-### 4. [BONUS] Write a test on ReportGenerator and only then fix it
+### 5. [BONUS] Write a test on ReportGenerator and only then fix it
 
 If you have the time, do the same for
 [ReportGenerator](../src/main/java/com/murex/tbw/report/ReportGenerator.java):
@@ -226,7 +226,9 @@ add a test, reproduce and fix.
 
 ## Mini Retro
 
-Take a few minutes to discuss the good and the bad of this approach.
+Take a few minutes to discuss the good and the bad of this approach. You can 
+fill the section *'Easy Fix, Difficult Test Retrospective'* of the file 
+[Kata_Retrospective.md](./Kata_Retrospective.md).    
 
 Then compare them to what people usually say in
 [Animation Guide.md](./Animation_Guide.md)
